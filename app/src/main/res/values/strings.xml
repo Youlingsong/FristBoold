@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Jianghuo</string>
+    <string name="denglu_phonenumber">手机号或邮箱</string>
+    <string name="denglu_password">密码</string>
+    <string name="denglu_button">登录</string>
+    <string name="denglu_zhuce">快速注册</string>
+    <string name="zhuce_name">昵称</string>
+    <string name="zhuce_phonenumber">登录邮箱/手机号</string>
+    <string name="zhuce_yanzhengma">验证码</string>
+    <string name="zhuce_huoquyanzhengma">获取验证码</string>
+    <string name="zhuce_password">密码</string>
+    <string name="zhuce_button">注册</string>
+    <string name="zhuce_hint">点击注册表示你已阅读并同意</string>
+    <string name="zhuce_hints">服务条款</string>
+    <string name="nav_taocan">套餐购买</string>
+    <string name="nav_fuwu">服务协议</string>
+    <string name="nav_lianxi">联系我们</string>
+    <string name="nav_exit">登出</string>
+    <string name="shouye_xianlu">当前线路</string>
+    <string name="shouye_taocan">当前套餐</string>
+    <string name="shouye_xianluzhi">美国</string>
+    <string name="shouye_taocanzhi">初级</string>
+    <string name="taocan_lv_hintone">一月 不限流量</string>
+    <string name="taocan_lv_hinttwo">标清视频（480p）</string>
+    <string name="taocan_lv_hintthree">24小时人工客服</string>
+    <string name="taocan_lv_hintfour">邮件收发，20M共享宽带</string>
+    <string name="taocan_lv_hintfive">服务器可选，全平台支持</string>
+    <string name="taocan_lv_buy">购买</string>
+    <string name="taocan_lv_taocantv_chu">初级</string>
+    <string name="taocan_lv_taocantv_flag">$</string>
+    <string name="taocan_lv_taocantv_money">25.99</string>
+    <string name="taocan_lv_taocantv_day">/30天</string>
+    <string name="taocan_lv_taocantv_gao">高级</string>
+    <string name="taocan_lv_taocantv_moneying">149.99</string>
+    <string name="taocan_lv_taocantv_daying">/183天</string>
+    <string name="taocan_lv_hintoneing">半年 不限流量</string>
+    <string name="taocan_lv_hinttwoing">超清视频体验（1080p）</string>
+    <string name="taocan_lv_hintthreeing">24小时人工客服 不限流量</string>
+    <string name="taocan_lv_hintfouring">邮件收发，100M共享宽带</string>
+
+    <string name="taocan_huang_taocantv_money">69.99</string>
+    <string name="taocan_huang_taocantv_day">/90天</string>
+    <string name="taocan_huang_hintone">一季度 不限流量</string>
+
+    <string name="taocan_huang_taocantv_moneying">269.99</string>
+    <string name="taocan_huang_taocantv_daying">/365天</string>
+    <string name="taocan_huang_hintoneing">一季度 不限流量</string>
+
+    <string name="taocan_hong_taocantv_moneying">139.99</string>
+    <string name="taocan_hong_hintoneing">一年 不限流量</string>
+
+    <string name="taocan_hong_taocantv_money">389.99</string>
+    <string name="taocan_hong_hintone">二年 不限流量</string>
+    <string name="taocan_hong_taocantv_day">/730天</string>
+    <string name="oneyear">/365天</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="denglubutton">#3D8AF4</color>
+    <color name="dengluhui">#60797e7f</color>
+
+    <color name="zhuce_et_background">#F9F9F9</color>
+    <color name="zheci_backgournd">#FFFFFF</color>
+    <color name="denglu_tv">#FEFCFD</color>
+    <color name="zhuce_tv">#000000</color>
+    <color name="general_divider">#dddddd</color>
+    <color name="nav_backgroud">#1C87F5</color>
+    <color name="shouye_background">#3E97FA</color>
+    <color name="shouye_taocanlv">#16DD8D</color>
+    <color name="shouye_taocanlvtv">#F5F5F5</color>
+    <color name="zhuce_taocanivim">#1D1D1D</color>
+    <color name="shouye_taocanhuang">#FFCD00</color>
+    <color name="shouye_taocanhong">#EC407A</color>
+
+
+
+
+
+
+</resources>

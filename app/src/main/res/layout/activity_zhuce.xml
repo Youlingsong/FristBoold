@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/registerback">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/navigationbarback" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/zheci_backgournd"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/zhuce_et_round"
+            android:hint="@string/zhuce_name"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/zhuce_et_round"
+            android:hint="@string/zhuce_phonenumber"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="2"
+                android:background="@drawable/zhuce_et_round"
+                android:hint="@string/zhuce_yanzhengma"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@color/denglubutton"
+                android:padding="10dp"
+                android:text="@string/zhuce_huoquyanzhengma" />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/zhuce_et_round"
+            android:hint="@string/zhuce_password"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/bt_denglu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/click_btn_blue_round"
+            android:hint="@string/zhuce_button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/zhuce_hint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhuce_hints"
+                android:textColor="@color/zhuce_tv" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

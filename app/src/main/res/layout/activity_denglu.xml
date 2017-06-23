@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomebackground"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.jianghuo.Denglu_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/welcomeyuan" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/denglu_et_round"
+            android:hint="@string/denglu_phonenumber"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/denglu_et_round"
+            android:hint="@string/denglu_password"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/bt_denglu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/click_btn_blue_round"
+            android:hint="@string/denglu_button" />
+
+        <TextView
+            android:id="@+id/tv_zhuce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:text="@string/denglu_zhuce"
+            android:textColor="@color/denglu_tv" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
