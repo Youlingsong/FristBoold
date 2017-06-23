@@ -5,6 +5,6 @@
 <TextView
     android:layout_width="match_parent"
     android:layout_margin="60dp"
-    android:text="这是服务协议1.3"
+    android:text="这是服务协议9"
     android:layout_height="wrap_content" />
 </LinearLayout>
