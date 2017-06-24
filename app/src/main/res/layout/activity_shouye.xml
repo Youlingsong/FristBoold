@@ -100,9 +100,10 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <de.hdodenhof.circleimageview.CircleImageView
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
                 android:src="@drawable/homepagelink" />
 
         </LinearLayout>
