@@ -69,7 +69,7 @@ public class Activity_taocan extends AppCompatActivity {
         fragmentList.add(fourFragment);
         fragmentList.add(sixFragment);
         viewpager.setAdapter(new MyViewPagerAdapter(getSupportFragmentManager()));
-        viewpager.setPageMargin(80);
+        viewpager.setPageMargin(-250);
         viewpager.setOffscreenPageLimit(6);
     }
 
