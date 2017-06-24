@@ -15,4 +15,20 @@
         <attr name="donut_suffix_text" format="string"/>
         <attr name="donut_background_color" format="color"/>
     </declare-styleable>
+    <declare-styleable name="CircleProgressBar">
+        <!-- 文字的颜色 -->
+        <attr name="circle_ring_text_color" format="color"/>
+        <!-- 数值的颜色 -->
+        <attr name="circle_ring_values_color" format="color"/>
+        <!-- 显示的文本 -->
+        <attr name="circle_ring_text" format="string"/>
+        <!-- 单位 -->
+        <attr name="circle_ring_unit" format="string"/>
+        <!-- 圆环的宽度 -->
+        <attr name="circle_ring_width" format="dimension"/>
+        <!-- 默认圆环的颜色 -->
+        <attr name="circle_ring_background_color" format="color"/>
+        <!-- 显示进度的圆环的颜色 -->
+        <attr name="circle_ring_foreground_color" format="color"/>
+    </declare-styleable>
 </resources>

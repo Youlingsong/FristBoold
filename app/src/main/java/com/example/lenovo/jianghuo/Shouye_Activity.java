@@ -10,10 +10,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.LinearLayout;
 
-import com.shinelw.library.ColorArcProgressBar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,6 +32,7 @@ public class Shouye_Activity extends AppCompatActivity {
     LinearLayout llCountry;
 
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +40,9 @@ public class Shouye_Activity extends AppCompatActivity {
         ButterKnife.bind(this);
         setSupportActionBar(homeActivityToolbar);
         ActionBar actionBar = getSupportActionBar();
+
+
+
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
